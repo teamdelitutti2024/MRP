@@ -1,0 +1,116 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.navigation > li > a {
+    font-size: 13px;
+}
+
+.navigation > li > ul li a {
+    font-size: 12px;
+}
+
+.page-title h5 {
+    font-size: 14px;
+}
+
+.stats li span {
+    font-weight: 300;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    color: black;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    font-size: 14px;
+}
+
+.ui-datepicker th {
+    color: black;
+}
+
+.table-responsive{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.modal-title {
+    font-size: 16px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+div.static-data {
+    margin-bottom:16px;
+}
+
+div.static-data p {
+    margin-bottom:0px;
+    font-size:16px;
+    font-weight: 500;
+    min-height: 23px;
+}
+
+div.static-data label {
+    border-top:1px dotted #999;
+    display: block;
+    color: #777;
+}
+
+.textUpper {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.titleDashed {
+    text-align: center;
+    position: relative;
+}
+
+.titleDashed:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    background: #999;
+    height: 1px;
+}
+
+.titleDashed span {
+    display:inline-block;
+    background:white;
+    z-index: 1;
+    position: relative;
+    padding: 0 10px;
+}
+
+.ui-datepicker .ui-datepicker-header span.ui-datepicker-month, .ui-datepicker .ui-datepicker-header span.ui-datepicker-year {
+    color: white;
+}
+
+.mandatory-field {
+    position: relative;
+}
+
+.mandatory-field > span {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color: #b94a48;
+}

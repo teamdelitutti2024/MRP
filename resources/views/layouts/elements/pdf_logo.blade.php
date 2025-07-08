@@ -1,0 +1,1 @@
+<img src="{{ url('/img/new_logo_black_pdf.jpg') }}" style="width: 120px; height: 100px;">
