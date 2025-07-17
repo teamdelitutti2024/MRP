@@ -21,7 +21,7 @@ services:
       MYSQL_ROOT_PASSWORD: B05>04j1oOWA
       MYSQL_DATABASE: delitutti_sistema
       MYSQL_USER: erp_user
-      MYSQL_PASSWORD: s2s'IHq7d5D!
+      MYSQL_PASSWORD: bpSo4Q731iVz
     volumes:
       - dbdata:/var/lib/mysql
 
