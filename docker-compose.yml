@@ -24,6 +24,7 @@ services:
       MYSQL_PASSWORD: bpSo4Q731iVz
     volumes:
       - dbdata:/var/lib/mysql
+      - ./docker/mysql.conf.d:/etc/mysql/conf.d
 
 volumes:
   dbdata:
